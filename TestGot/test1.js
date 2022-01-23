@@ -1,5 +1,4 @@
-# TestGot
-// Текст для зашифровки и количество шифровок n пишите в конце в console.log
+// Слово для зашифровки и расщифровки и количество шифрований пишите в конце в console.log
 
 function encrypt_1(text) {
   let even = ""; // задаю строку, в которую буду "складывать" четные элементы строки (2,4,6...)
@@ -46,5 +45,11 @@ function decrypt (text, n) {
   }
   return text
 }
-console.log (decrypt(encrypt("", 1), 1))
+
+console.log (encrypt("Ваша строка", 1))
+console.log (decrypt(encrypt("Ваша строка", 1), 1))
+
+
+
+
 
